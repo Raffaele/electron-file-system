@@ -1,0 +1,47 @@
+.important-info {
+    border: 1px red solid;
+    border-radius: 5px;
+    margin: 10px 3px;
+    padding: 5px;
+}
+
+.command {
+    display: inline-block;
+    background-color: rgba(255, 0, 0, .2);
+    padding: 2px 5px;
+}
+
+.app-main-title {
+    color: red;
+    background: yellow;
+    text-align: center;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.fs-info > div {
+    background-color: white;
+    padding: 5px;
+}
+
+.side-menu {
+    overflow: auto;
+}
+
+#complete-path {
+    padding: 10px;
+}
+
+.link-sub-element {
+    display: block;
+}
+
+.link-sub-element.selected {
+    color: black;
+}
+
+#file-content {
+    overflow: scroll;
+}

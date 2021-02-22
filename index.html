@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Raf electron app!</title>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <div class="container">
+        <h1 class="app-main-title">Filesystem by Electron</h1>
+        <pre class="row fs-info">
+          <div class="col-12">
+            <h3>Path:</h3>
+            <span id="complete-path"></span>
+          </div>
+          <div class="col-4 side-menu" id="folder-content-list">
+            
+          </div>
+          <div class="col-8" id="file-content">
+            
+          </div>
+        </pre>
+    </div>
+
+
+    <script>
+      require('./js/index.js')
+    </script>
+  </body>
+</html>
